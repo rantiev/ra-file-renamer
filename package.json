@@ -1,26 +1,29 @@
 {
-  "name": "ra-file-renamer",
-  "version": "0.0.2",
-  "description": "Renames files recursively",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rantiev/ra-file-renamer.git"
-  },
-  "keywords": [
-    "files",
-    "rename"
-  ],
-  "author": "Pavel Shlykov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rantiev/renamer/issues"
-  },
-  "homepage": "https://github.com/rantiev/renamer",
-  "dependencies": {
-    "minimist": "^1.1.1"
-  }
+	"name": "ra-file-renamer",
+	"version": "0.0.5",
+	"description": "Renames files recursively",
+	"main": "./lib/index.js",
+	"bin": {
+		"ra-file-renamer": "./bin/index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rantiev/ra-file-renamer.git"
+	},
+	"keywords": [
+		"files",
+		"rename"
+	],
+	"author": "Pavel Shlykov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rantiev/renamer/issues"
+	},
+	"homepage": "https://github.com/rantiev/renamer",
+	"dependencies": {
+		"minimist": "^1.1.1"
+	}
 }
