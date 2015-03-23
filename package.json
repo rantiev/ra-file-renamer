@@ -1,6 +1,6 @@
 {
 	"name": "ra-file-renamer",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Renames files recursively",
 	"main": "./lib/index.js",
 	"bin": {
