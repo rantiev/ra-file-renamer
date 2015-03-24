@@ -1,6 +1,6 @@
 {
 	"name": "ra-file-renamer",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"description": "Renames files recursively",
 	"main": "./lib/index.js",
 	"bin": {
@@ -20,9 +20,9 @@
 	"author": "Pavel Shlykov",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/rantiev/renamer/issues"
+		"url": "https://github.com/rantiev/file-renamer/issues"
 	},
-	"homepage": "https://github.com/rantiev/renamer",
+	"homepage": "https://github.com/rantiev/file-renamer",
 	"dependencies": {
 		"minimist": "^1.1.1"
 	}
